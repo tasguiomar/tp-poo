@@ -153,7 +153,7 @@ string Colonia::getNome() const {
 }
 
 void Colonia::listar(int modo) {
-    if(modo){
+    if(modo == LIST){
         cout << "   Colonia: " << this->nome << " - Moedas: " << this->moedas << endl;
         cout << "       Perfil: " << endl;
         if(vectorPerfil.size() > 0){
