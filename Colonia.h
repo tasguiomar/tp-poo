@@ -60,7 +60,7 @@ public:
     int getMoedas() const;
     string getNome() const;
     
-    void listar(int modo); // teste
+    void listar(int modo);
     virtual ~Colonia();
 
 };
