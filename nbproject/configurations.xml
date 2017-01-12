@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>Caracteristica.h</itemPath>
+      <itemPath>Castelo.h</itemPath>
+      <itemPath>Colonia.h</itemPath>
+      <itemPath>Consola.h</itemPath>
+      <itemPath>Controlador.h</itemPath>
+      <itemPath>Edificios.h</itemPath>
+      <itemPath>Gestor.h</itemPath>
+      <itemPath>Perfil.h</itemPath>
+      <itemPath>Ser.h</itemPath>
+      <itemPath>Unidade.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>Caracteristica.cpp</itemPath>
+      <itemPath>Castelo.cpp</itemPath>
+      <itemPath>Colonia.cpp</itemPath>
+      <itemPath>Consola.cpp</itemPath>
+      <itemPath>Controlador.cpp</itemPath>
+      <itemPath>Edificios.cpp</itemPath>
+      <itemPath>Gestor.cpp</itemPath>
+      <itemPath>Perfil.cpp</itemPath>
+      <itemPath>Ser.cpp</itemPath>
+      <itemPath>Unidade.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <standard>8</standard>
+        </ccTool>
+      </compileType>
+      <item path="Caracteristica.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Caracteristica.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Castelo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Castelo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Colonia.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Colonia.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Consola.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Consola.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Controlador.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Controlador.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Edificios.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Edificios.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Gestor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Gestor.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Perfil.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Perfil.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Ser.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Ser.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Unidade.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Unidade.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <standard>8</standard>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="Caracteristica.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Caracteristica.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Castelo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Castelo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Colonia.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Colonia.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Consola.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Consola.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Controlador.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Controlador.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Edificios.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Edificios.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Gestor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Gestor.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Perfil.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Perfil.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Ser.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Ser.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Unidade.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Unidade.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
